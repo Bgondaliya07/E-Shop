@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Gondaliya Bhumir">
+
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+    <title>E-Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Scrolling Button-->
+    <a href="#section1">
+        <button class="myBtn" title="bottom to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button></a>
+
+    <!---HEADER-->
+    <header class="header" id="section1">
+        <div class="left-section">
+            <select class="language" id="language" name="language">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+            </select>
+            <a>|</a>
+            <select class="currency" name="currency">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+            </select>
+            <a>|</a>
+            <span style="color: white;">Welcome to E-Commerce</span>
+        </div>
+
+        <div class="right-section">
+            <a href="#" class="account"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;My Account</a>
+            <a>|</a>
+            <a href="#" class="wishlist"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp;Wishlist</a>
+            <a>|</a>
+            <a href="#" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Checkout</a>
+            <a>|</a>
+            <a href="#" class="login"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp;Login</a>
+        </div>
+    </header>
+
+
+    <!---PART 2-->
+    <section class="middle-header">
+        <div class="left-side">
+            <button class="search-button" style="background-color: transparent; border: none;"><img
+                    src="img/images__1_-removebg-preview.png"></button>
+        </div>
+
+        <div class="middle-side">
+            <select class="categories-button" name="categories">
+                <option value="en">All Categories</option>
+                <option value="es">Man</option>
+                <option value="es">Woman</option>
+                <option value="es">Son</option>
+                <option value="es">Daughter</option>
+            </select>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button class="search-button">
+                    <i class="fa fa-search" aria-hidden="true" style="color: black;"></i></button>
+            </div>
+        </div>
+
+        <div class="right-side" style="display: flex;">
+            <button class="search-button" style="background-color: transparent; border: none;"><img
+                    src="img/phone-icon.png"></img></button>
+            <div class="text" style=" color: black;">
+                <span>Call Us First</span><br>
+                <span>+123-456-7890</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!---PART 3-->
+    <nav class="navbar">
+        <ul>
+            <li style="margin-right: 150px;">
+                <a href="#mycart" class="checkout"
+                    style="color: white; background-color: #ffa238; padding: 18px; padding-left: 10px; padding-bottom: 19.5px;">
+                    CATEGORIES&nbsp; <i class="fa fa-bars" aria-hidden="true" style="margin-left: 40px;"></i>
+                </a>
+            </li>
+            <li><a href="#home">Home&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
+            <li><a href="#Pages">Pages&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
+            <li><a href="#section0">About Us</a></li>
+            <li><a href="#section5">Men</a></li>
+            <li><a href="#section8">Women</a></li>
+            <li><a href="#section9">Contact Us</a></li>
+            <li style="margin-left: 150px;">
+                <a href="#mycart" class="checkout"
+                    style="color: white; background-color: rgb(107, 107, 107); padding: 0px; padding-left: 10px;">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    &nbsp; My Cart &nbsp;
+                    <button class="sort-button"
+                        style="padding: 20px; background-color: #ffa238; border: none; cursor: pointer; color: #fff;">
+                        <i class="fa fa-sort" aria-hidden="true"></i>
+                    </button></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!---PART 4-->
+    <section class="image-section">
+        <img src="img/WhatsApp Image 2024-08-07 at 12.20.49_9b30e23b.jpg" alt="Sample Image">
+        <div class="overlay-text">
+            <p style="color: white; font-size: 50px;"><b>TOP FASHION FOR MAN </b></p>
+            <p style="color: rgb(255, 255, 255); font-size: large; text-align: center;">TRENDY SUMMER COLLECTION 2015
+            </p>
+            <a href="#" class="shop-button"><b>SHOP NOW</b></a>
+        </div>
+    </section>
+
+    <!---ABOUT US-->
+    <div class="new-arrivals-section" id="section0">
+        <h2>ABOUT US</h2>
+    </div>
+
+    <section class="about">
+        <div class="images">
+            <img src="img/bhumir.jpg">
+        </div>
+        <div class="details">
+            <h1 style="font-size: xx-large;">Heyy..! &nbsp; It's Gondaliya Bhumir :)</h1>
+            <pre style="font-family: 'Times New Roman', Times, serif;">
+Hello, guys! My name is Gondaliya Bhumir. I completed my B.Tech Degree in 
+the Government Engineering College in Rajkot. My field is Electronics and 
+Communication. Currently I'm studying Web-Development course at MDIDM 
+Infoway. My future goal is to become a good full-stack developer and buy 
+a big house for my mom.</pre>
+            <button style="border-radius: 10px;
+            padding: 5px 20px;
+            margin-top: 10px;
+            border: none;">
+                <p><a href="#" style="text-decoration: none; color: rgb(0, 0, 0);"><b>CHECK MORE</b></a></p>
+            </button>
+        </div>
+    </section>
+
+    <!---PART 5-->
+    <div class="new-arrivals-section" id="section2">
+        <h2>HOT DEALS</h2>
+    </div>
+
+
+    <!---PART 6-->
+    <section class="product-section" id="section3">
+        <div class="product">
+            <img src="img/S24GUESS41913_BROWN.jpg_230Wx334H" alt="Female Bag">
+            <h3>Female Bag</h3>
+            <div class="rating">
+                <span>★★★★★</span>
+            </div>
+            <p>5000.00 ₹</p>
+        </div>
+        <div class="product">
+            <img src="img/S24BI9605IND_INDIGO.jpg_230Wx334H" alt="Female Dress">
+            <h3>Female Dress</h3>
+            <div class="rating">
+                <span>★★★★</span>
+            </div>
+            <p>3000.00 ₹</p>
+        </div>
+        <div class="product">
+            <img src="img/A23FWCW5764_GOLD.jpg_230Wx334H" alt="Female Shoes">
+            <h3>Female Shoes</h3>
+            <div class="rating">
+                <span>★★★</span>
+            </div>
+            <p>2000.00 ₹</p>
+        </div>
+        <div class="product">
+            <img src="img/202675245_UNMAPPED.jpg_136Wx204H" alt="Female Makeup Kit">
+            <h3>Female Makeup Kit</h3>
+            <div class="rating">
+                <span>★★★★★</span>
+            </div>
+            <p>4500.00 ₹</p>
+        </div>
+    </section>
+
+
+    <!---PART 7-->
+    <section class="img-section" id="section4">
+        <div class="image-container left-side">
+            <img src="img/pexels-photo-878358.jpeg" alt="Image 1">
+            <div class="overlay">
+                <div class="text">
+                    <h2>ACCESSORIES FOR MAN</h2>
+                    <h6>LATEST COLLECTION</h6>
+                </div>
+            </div>
+        </div>
+        <div class="image-container left-side">
+            <img src="img/photo-1572601809155-8a9f3191b2d9.avif" alt="Image 1">
+            <div class="overlay">
+                <div class="text">
+                    <h2>SHOES FOR <br>MAN</h2>
+                    <h6>NEW ADDITION</h6>
+                </div>
+            </div>
+        </div>
+        <div class="image-container right-side">
+            <img src="img/pexels-photo-380782.webp" alt="Image 4">
+            <div class="overlay">
+                <div class="text">
+                    <h2>ACCESSORIES FOR MAN</h2>
+                    <h6>LATEST COLLECTION</h6>
+                </div>
+            </div>
+        </div>
+        <div class="image-container left-side">
+            <img src="img/premium_photo-1672239496290-5061cfee7ebb.avif" alt="Image 1">
+            <div class="overlay">
+                <div class="text">
+                    <h2>GLASSES FOR <br>MAN</h2>
+                    <h6>NEW ADDITION</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---PART 8-->
+    <div class="new-arrivals-section" style="margin-top: 50px;" id="section5">
+        <h2>MEN CLOTHINGS</h2>
+    </div>
+
+
+    <!---PART 9-->
+    <section class="product-section" id="section6">
+        <div class="product">
+            <img src="img/A21HG178ADARKPU_PURPLE1.jpg_230Wx334H" alt="Female Bag">
+            <h3 style="color: red;">70% OFF</h3>
+            <div class="rating">
+                <span>★★★★★</span>
+            </div>
+            <p>2000.00 ₹</p>
+        </div>
+        <div class="product">
+            <img src="img/A21HG72ANAVYSIL_MULTI.jpg_230Wx334H" alt="Female Dress">
+            <h3 style="color: red;">72% OFF</h3>
+            <div class="rating">
+                <span>★★★★</span>
+            </div>
+            <p>2500.00 ₹</p>
+        </div>
+        <div class="product">
+            <img src="img/A21HGK51N12BASK_MULTI.jpg_230Wx334H" alt="Female Shoes">
+            <h3 style="color: red;">50% OFF</h3>
+            <div class="rating">
+                <span>★★★</span>
+            </div>
+            <p>3000.00 ₹</p>
+        </div>
+        <div class="product">
+            <img src="img/A21HGK7DARKBLUE_BLUE.jpg_230Wx334H" alt="Female Makeup Kit">
+            <h3 style="color: red;">40% OFF</h3>
+            <div class="rating">
+                <span>★★★★★</span>
+            </div>
+            <p>4000.00 ₹</p>
+        </div>
+    </section>
+
+
+    <!---PART 10-->
+    <section class="image-section1" id="section7">
+        <img src="img/WhatsApp Image 2024-08-07 at 12.20.48_df66126b.jpg" alt="Sample Image">
+        <div class="overlay-text1">
+            <h2 class="font_style1"><b>NEWSLETTER SUBSCRIBE</b></h2>
+            <p class="font_style2">Subscribe through your mail to
+                receive notification on new arrivals, special offers and other discount information</p>
+            <a href="signup.html" class="shop-button1"><i
+                    class="fas fa-mail-bulk"></i>&nbsp;&nbsp;<b>ENTER YOUR EMAIL ADDRESS</b></a>
+        </div>
+    </section>
+
+
+<!---PART 11-->
+<div class="new-arrivals-section" id="section8">
+    <h2>WOMAN ACCESSORIES</h2>
+        <button class="categories-button1"
+            style="padding: 10px 20px; color: black; background-color: transparent;"><b>NEW PRODUCTS</b></button>
+        <button style="padding: 10px 20px; color: black; background-color: transparent;"><b>POPULAR
+                PRODUCTS</b></button>
+        <button style="padding: 10px 20px; color: black; background-color: transparent; "><b>BEST SELLER</b></button>
+</div>
+
+
+    <!---PART 12-->
+    <section class="product-section" style="margin-bottom: 10px;">
+        <div class="product">
+            <img src="img/1.avif" alt="Female Bag">
+        </div>
+        <div class="product">
+            <img src="img/2.avif" alt="Female Dress">
+        </div>
+        <div class="product">
+            <img src="img//3.avif" alt="Female Shoes">
+        </div>
+        <div class="product">
+            <img src="img//4.avif" alt="Female Makeup Kit">
+        </div>
+    </section>
+    <section class="product-section" style="margin-bottom: 10px;">
+        <div class="product">
+            <img src="img//5.avif" alt="Female Bag">
+        </div>
+        <div class="product">
+            <img src="img//6.avif" alt="Female Dress">
+        </div>
+        <div class="product">
+            <img src="img/7.avif" alt="Female Shoes">
+        </div>
+        <div class="product">
+            <img src="img/8.avif" alt="Female Makeup Kit">
+        </div>
+    </section>
+
+
+    <!---PART 13-->
+    <div class="new-arrivals-section" id="#">
+        <h2>OUR BRANDS</h2>
+    </div>
+
+    <!---PART 14-->
+    <section class="middle-header">
+        <div class="left-side">
+            <button class="search-button"
+                style="background-color: transparent; border: none; margin-right: 45px; margin-left: 45px;"><img
+                    src="img/11.jpeg"></img></button>
+            <button class="search-button"
+                style="background-color: transparent; border: none; margin-right: 45px; margin-left: 45px;"><img
+                    src="img/88.png"></img></button>
+            <button class="search-button"
+                style="background-color: transparent; border: none; margin-right: 45px; margin-left: 45px;"><img
+                    src="img/33.jpeg"></img></button>
+            <button class="search-button"
+                style="background-color: transparent; border: none; margin-right: 45px; margin-left: 45px;"><img
+                    src="img/55.jpeg"></img></button>
+            <button class="search-button"
+                style="background-color: transparent; border: none; margin-right: 45px; margin-left: 45px;"><img
+                    src="img/66.png"></img></button>
+        </div>
+    </section>
+
+    <!---CONTACT US-->
+    <div class="new-arrivals-section" id="section9">
+        <h2>CONTACT US</h2>
+    </div>
+
+    <form class="contact-us">
+        <h1>SAY HELLO</h1>
+        <p style="color: grey;">Talk to us about what we do and how we can help you</p>
+        <input type="text" id="name" name="name" placeholder="Name" style="border: none;">
+        <input type="email" id="email" name="email" placeholder="Email" style="border: none;"><br>
+        <input type="text" id="phone" name="phone" placeholder="Phone" style="border: none;">
+        <input type="text" id="subject" name="subject" placeholder="Subject" style="border: none;"><br>
+        <textarea id="text" placeholder="Message" cols="20" rows="4" style="width: 60%;"></textarea><br>
+        <button style="border: none;">
+            <p><a href="#" style="text-decoration: none; color: white;"><b>WORK WITH US</b></a></p>
+        </button>
+    </form>
+
+    <!---MAP-->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.047746872778!2d70.76255247948428!3d22.31403392727445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c981b544ac31%3A0x7d18f62705287712!2sMDIDM%20INFOWAY!5e0!3m2!1sen!2sin!4v1723178685528!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!---PART 15-->
+    <footer style="margin-top: 50px;" id="section10">
+        <div class="footer-container">
+
+            <ul class="footer-column" style="list-style-type: none;">
+                <a class="footer-logo">
+                    <img src="img/images__1_-removebg-preview.png" alt="Website Logo">
+                </a>
+                <li class="footer-address">
+                    <i class="fa fa-map-marker"></i> 123 Your Address, City, Country
+                </li>
+                <li class="footer-email">
+                    <i class="fa fa-envelope"></i> info@yourwebsite.com
+                </li>
+                <li class="footer-phone">
+                    <i class="fa fa-phone"></i> +123 456 7890
+                </li>
+            </ul>
+
+            <ul class="footer-column" style="text-align: left; list-style-type: none;">
+                <h3 class="footer-title">MY ACCOUNT</h3>
+                <li style="margin-bottom: 10px;">Wishlist</li>
+                <li style="margin-bottom: 10px;">Shopping Cart</li>
+                <li>Checkout</li>
+            </ul>
+
+            <ul class="footer-column" style="list-style-type: none;">
+                <h3 class="footer-title">INFORMATION</h3>
+                <li style="margin-bottom: 10px;">About Our Shop</li>
+                <li style="margin-bottom: 10px;">Top Seller</li>
+                <li style="margin-bottom: 10px;">Special Products</li>
+                <li style="margin-bottom: 10px;">Manufacturing</li>
+                <li style="margin-bottom: 10px;">Secure Shopping</li>
+                <li style="margin-bottom: 10px;">Privacy Policy</li>
+                <li>Overall Information</li>
+            </ul>
+
+            <ul class="footer-column" style="list-style-type: none;">
+                <h3 class="footer-title">OUR SUPPORT</h3>
+                <li style="margin-bottom: 10px;">Contact Us</li>
+                <li style="margin-bottom: 10px;">Shopping & Terms</li>
+                <li style="margin-bottom: 10px;">Return Policy</li>
+                <li style="margin-bottom: 10px;">Careers</li>
+                <li style="margin-bottom: 10px;">Advantages</li>
+                <li>Gift Vultures</li>
+            </ul>
+
+            <ul class="footer-column" style="list-style-type: none;">
+                <h3 class="footer-title">OUR SERVICES</h3>
+                <li style="margin-bottom: 10px;">Shopping and Returns</li>
+                <li style="margin-bottom: 10px;">Informational Shopping</li>
+                <li style="margin-bottom: 10px;">Best Customer Support</li>
+                <li>Easy Communication</li>
+            </ul>
+        </div>
+    </footer>
+
+    <div style="text-align: center; background-color: black; color: white; padding: 15px;">
+        <small>Copyright &copy; 2024 Gondaliya Bhumir</small>
+    </div>
+
+</body>
+
+</html>
